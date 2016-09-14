@@ -10,13 +10,13 @@ source_url ""
 
 
 depends "file"
+depends 'artifact-deployer'
 
 # Community cookbooks
 depends "python", ">= 1.4.6"
 depends 'chef-sugar', ">= 3.2.0"
 depends 'line', ">= 0.6.3"
 depends 'yum-epel', '>= 0.6.0'
-depends 'artifact-deployer', ">=0.8.18"
 # depends 'build-essential', ">= 2.2.3"
 # depends "java", ">= 1.31.0"
 # depends "openssl", ">= 4.0.0"
